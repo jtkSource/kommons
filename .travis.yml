@@ -15,12 +15,12 @@ env:
               cMHIsxw1ZsEC7rmNJMnPpY/axrf8jWuY5SCeyRIJ3XSlGgK2QlvNpERJfnW58g31vk4yFClbDzW/DYrPvrzz9KIKC7XqOZ+pOjnlPK5SzcecjArot1iJLFIB
               95SsWgUKp80I/hcuu6xehsw+HYBz0cxLmGGjJHf9W8YUAgoSwcSChwMgBhccjl0qMrFeLA+ZIsT1YJMa+UnZ6hHN2BnshU="
     - # ^^ OSSRH_JIRA_PASSWORD
-    - secure: "e1k2vZw6cCmmzzoYLW2Y2anXUnWCKjH7O6GxOidykUfRLL2khGRsmlwDrbXE4QeswCSQNVbu49dTe1wPblxRHW0u+HvRWTftblokrAaoiAlA5
-              4c3IbgXQQHsPfi+DHka8XTt+K/I2Az4Xsb6uz2HkMRUke+e3MYuqqOVEQU3Yr1iQ5sYxMsn55fNwBoUthczWmfPu5n9o20+VWBdXNBNoW/7faJMUyjrq0Wf9
-              0zSDH4uR5buzNG4j9d7Ews0xY0jxPFVp26oJRSu7o/aLU5l/xkAZro8MHoK6T/5aH1yNaCG2TgsbpvdXQ8sNjYBTsUZbxSDBN47wlzKM5ahWki7qKMt5bbn7
-              Eq21JGqi+ZdWM6Nu3eahpDov5cM0MobfdYysgw8jMqC9/tXStoQDBhDcc/1xrkQTsdrVYLCsSZJKjfaY/pvq6gsoC0QASFKY3XsE3CH7FzxYrEUIeOvwfVS/
-              brSvsjwZ1jJ/jAekWwgEtvii/yus9nDSVShgYr4jqhGLM5MxlZa9AaJmCmO5T+6r6cp7ssPw5bua2Hq9BNCKlolhd5p+jMheLzrBcbZrSRoDT2eoOYHqr5ZZ
-              IIuu7n1B1C7N96CrCQHl4vO932hfwkh7Rn/Xsbc4HHQiaypqxOJSXv3+z5kpHOPbM5znGGeu+0cHpOIWJgowb9IYk8Nie4="
+    - secure: "EqsBr0KlhCWJ+2VEZz2dnDATyUDyn9d8MazPc8lGJqOcQe045gQN8Iyjv3KlJZF/XdGdMoWdaJtE8UJHjphsTayIKIUxb2uRtDx/ntSkIXEj0
+              hYwnk519N4Uh6kfxptXFhU+93Mwc9JRBZ+YeZmjmx+O2e3/slqwsBJ5EFyUEi+yqOv1IPYrJ6L4lFYlpEWEaTX/nnQ9w5cLYCNHLZ7aGO58VoMwodFvBhg6r
+              pq18kY4uRBK85xH742x/Zre2F0HdlCTKywL3W8GdDoHBufgsE/m2Go1c8zz9M3rXBp7as8dCTHccNpUEuC+bNa5auXb8ke7ecthImKWveWo/TMUIR+ryOxPS
+              DrmygUDtbW9UTnYvbmLe+VobTV8iO1S2sIrZXONxMH+yyYSeONutbtfWKknCTZ45kElTa/nHYwK0WlzPslyoIa+GmtINNGQ0d8YcPc+N7NCgP5ajlYKjjrBl
+              G7SoZ7lZX1ZBcJWFqfI/iaIUCb/0a0h+2Pp4T2CLnHtIRcbNDmeM8WArHLHxxqf/hP30aNmfO+k0tVWs+2UHjT1aclZqtW6/ds+oECcjaIEVDPfk8pp/aXcy
+              MUJcWgYuBQQdvwzCDMvnCALuxMHy2v92Zmf1Nd3LsVA61Cm1lIdvYBdWjJhxOkwv3M42TtN0F+g5iavfZKtBTEFalSQzbA="
     - # ^^ GPG_KEY_NAME
     - secure: "poFncm2x6Ez24Mfg1Q7yubz/ZU24BJycNIReyIwSqqUra91JtopfFk5Yk5ucpPqW3LfFOrjfGNn4jIh2EWvPuSx6+fBhOES0NPaH3b+g1YF0S
               KM9XBV64thzCL+ySIC3rkztXg4+y7a3/xGUPYmXMWHKiusRoPxRYfRu4/Riku4XMnaPDpfpAVeBb07XJgqs2SKB95InCJXs9tS+ybB6I+W7GEhLZHSec5bfe
