@@ -15,19 +15,19 @@ env:
               cMHIsxw1ZsEC7rmNJMnPpY/axrf8jWuY5SCeyRIJ3XSlGgK2QlvNpERJfnW58g31vk4yFClbDzW/DYrPvrzz9KIKC7XqOZ+pOjnlPK5SzcecjArot1iJLFIB
               95SsWgUKp80I/hcuu6xehsw+HYBz0cxLmGGjJHf9W8YUAgoSwcSChwMgBhccjl0qMrFeLA+ZIsT1YJMa+UnZ6hHN2BnshU="
     - # ^^ OSSRH_JIRA_PASSWORD
-    - secure: "EqsBr0KlhCWJ+2VEZz2dnDATyUDyn9d8MazPc8lGJqOcQe045gQN8Iyjv3KlJZF/XdGdMoWdaJtE8UJHjphsTayIKIUxb2uRtDx/ntSkIXEj0
-              hYwnk519N4Uh6kfxptXFhU+93Mwc9JRBZ+YeZmjmx+O2e3/slqwsBJ5EFyUEi+yqOv1IPYrJ6L4lFYlpEWEaTX/nnQ9w5cLYCNHLZ7aGO58VoMwodFvBhg6r
-              pq18kY4uRBK85xH742x/Zre2F0HdlCTKywL3W8GdDoHBufgsE/m2Go1c8zz9M3rXBp7as8dCTHccNpUEuC+bNa5auXb8ke7ecthImKWveWo/TMUIR+ryOxPS
-              DrmygUDtbW9UTnYvbmLe+VobTV8iO1S2sIrZXONxMH+yyYSeONutbtfWKknCTZ45kElTa/nHYwK0WlzPslyoIa+GmtINNGQ0d8YcPc+N7NCgP5ajlYKjjrBl
-              G7SoZ7lZX1ZBcJWFqfI/iaIUCb/0a0h+2Pp4T2CLnHtIRcbNDmeM8WArHLHxxqf/hP30aNmfO+k0tVWs+2UHjT1aclZqtW6/ds+oECcjaIEVDPfk8pp/aXcy
-              MUJcWgYuBQQdvwzCDMvnCALuxMHy2v92Zmf1Nd3LsVA61Cm1lIdvYBdWjJhxOkwv3M42TtN0F+g5iavfZKtBTEFalSQzbA="
+    -   secure: "3o04PslBV77BTg5egersawozeWIrTeBHmB2D/flJXa7TbXL1W/QajPofh3wia2QycbP2egAPo9J6+3ZnuF/w87Mh3Bi6kWCUMB55UR/EXs/7+
+                LLLNxKRaiMmxG8+aGZfemKACRaPixR9Xs2uV6CprGjN7DYM4R9cNpvQNi7uKQBH+NA3sSY9MELvEfUCkfj8Sh3YVk7dT++Q/HZjoPausqoKDzf2Gk0EpmwsY
+                BEn7wruciEuf0ieeltYWDz0337OMRtQspToswj6V3tR5Plk5F2+k+liWwX0Yu5b4c+aS6vwhnZiHZFFSdHPT2VOio/gSYw7MiQwMQMAhFIVF5sp+fkBx+dJW
+                qWiV4QcBWT+Ki2QwdAjMF6gXZePnSqMIakZC7L7Bzt7vaILzuVs7pkXQNF/QpCVQtOa+/lC6czehcDHMZrGIn8GAbYdGnKuNZhnNMQgc02/xytmJeviMVn/7
+                QS57LtgxFHUJhn0LowBfmk6y/a631IEWJMWixngqe1MMScAGsD6/Go2svw8yjHkElm2NuL8YAA2gtI4RfyQSq/XBKtBkSdnuLqwsknxIFn7/L/eW3rzfMcFx
+                djD0pbGGvnjcIqGvwnPZBlSvxxVkJU+fY7sajsQMzGRe53NlFKwtef1MhDxeUm6WQkmH7GH3AOUSZCNTw8Hk6nwKxkaVSo="
     - # ^^ GPG_KEY_NAME
-    - secure: "poFncm2x6Ez24Mfg1Q7yubz/ZU24BJycNIReyIwSqqUra91JtopfFk5Yk5ucpPqW3LfFOrjfGNn4jIh2EWvPuSx6+fBhOES0NPaH3b+g1YF0S
-              KM9XBV64thzCL+ySIC3rkztXg4+y7a3/xGUPYmXMWHKiusRoPxRYfRu4/Riku4XMnaPDpfpAVeBb07XJgqs2SKB95InCJXs9tS+ybB6I+W7GEhLZHSec5bfe
-              DSSoRpNaECC3KMWeMD2SBoLGD+sEVEj9qXRF5m0OMuRYvdYgnK3G4zeOx8uCqR++W1duMGTd0lSVp/2pQZM3zbgecW2j0h9prWlnApA1MP6vcue0lvjO1+b9
-              e4LEHwWe+qg88+Lx7Jno+BeRJHnoKsZLcsP/m2OfXz/qk0YO8oAHvvbG9Io8xN2mmbwu8FWlbju28DyTArMo5UO3dj4et+cFRhTC1GXQbDzYHHzP0eAqsf2n
-              xEL2nJr98SlluH6gr8pJ2DB99pzend2Bqosl+3umdx4wBPxeP0dwh3yNGLlEF5BAIGC9uyBH6tvP4U12mYEOUYuRtZb0KQi7M2kl3Bi2t5jcoulfA1fwFZ2G
-              sinxtSiSLPYN8WHInSpjvCOnBA+PjjrIGxhYvbzFGqa9j8dVAL1HVnnuF1VVcC1Sl7JSfIupJrqP6Un7Zh2nWJezS+z2Lo="
+    -   secure: "xzg8JDs+aU1mt/1JNuX5HlmUtzjQtKRzn4LA943+fbgJKfOdmlWM20YA5Sg+CK33vPSaY+OR4It8607ZcGVue4/E/RV+TCmTwXuJvyZMAnLyz
+                r6CoScQB/QC3FYFH+D/GcWvh/5I5NidKA8EL7UREG1O+MFwU8eTW2IFlv+yWf434Z3OSLGP76jhLOdFGtbEU28CZBvpm3K1zFZE3436qmNNAz2efbU/8n4wa
+                2yep0SrWaMugwPeUIYsS9xEwPI8w2kz+lsy6tzScfW0soQInCtCw5oTQkKxV40kI3YrrCbKu75OQRVp1cE2YB/tr6TN8oSlFRTqOo1+Bh7pPPuKrIug/U4Ci
+                SoApnm9zS5Twjm4MsLr3p54gurOiFc9kOwMowt4EJrF8kC0Fc02UFcm1HuKcNYoBtVj3cIMoULo8bWN7W5u0+uziNgimRXXJjvMGz8qjWJsh3TOK5bDMIIg/
+                suRSewS0Ci3fjJ6Q/bGocn5c1SVoSeaEDN5JR+HqpJ903U0GpRuGRX+F6c/xbo6wqIqmtA6F3saFZG/VNoXNxQD7q4MbIsppHBF6BfF6kKOGzRUyciIEWqJJ
+                gRlPU9UqGMvKPztje4LaNYLLpgRg1oEh3qSpyiZBeNkCUg8CIafXNOGlBF/Pa118LhtULN71GWE91o9I1ng6R/999PBUFg="
     - # ^^ GPG_PASSPHRASE
 
 before_install:
