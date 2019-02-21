@@ -29,6 +29,7 @@ env:
       suRSewS0Ci3fjJ6Q/bGocn5c1SVoSeaEDN5JR+HqpJ903U0GpRuGRX+F6c/xbo6wqIqmtA6F3saFZG/VNoXNxQD7q4MbIsppHBF6BfF6kKOGzRUyciIEWqJJ
       gRlPU9UqGMvKPztje4LaNYLLpgRg1oEh3qSpyiZBeNkCUg8CIafXNOGlBF/Pa118LhtULN71GWE91o9I1ng6R/999PBUFg=
   - 
+  - secure: T7KpN7XxBLm8u0kcQE79paAkXDGzEzqXAtLKOt8NuiRSFIQothZMS2Z/888CnCwOjFdbh9vMsH8cyfLe2Fn8TTPwZcPOxwE/bQIwoR3J7+JA3Xh6tSHgds6Xjt2MmhZqbzG1+4VAnY3lMl0IL3GD8FnIkgwoIzA931EZBt/C+U2kzLHpRYRTqx1vZwAZckGNi7Y5IBmh3nykm85riERnRP0sP0NH3VBt8pjunXPW88PjM84XPNMPQRhjqvpy2Yg/CBUCPYbGkqfv6pDZGb8OtQ65XEUipKmYiKnD62u3Dd3BIH3xZFrS9BY9UOb5RdzZlEOTcjSNOBVmxmG1EoIyNDKy4LbyLMsUBlpgVTeJpRpfnl5zJC6Ma1FCEvTEtuBxnieQr4ZKdsBq9y5oA4vaOK9BDnAiSM2B86E1g4KQ5TwjYxm96R3+KAtDkC0edKMTuWDHWmAhnxHIl3npZBKVWIkiOHb1sW+MRwm4EIG88Lw4d+vmkDPzzW3jsdbfkkBgLxDaoDjwL+p9mPcQ+m8vfhxKp1k0MiK8eOe+WaE2av8U4Cx2VnOTLIr17AUNsUekY9+D0JOXX0+gtm3Y0ZSmFVR16beipqzSEXS7jaQw0JV/RvTMMT68VkSzLXLGDeuHjcjSRf7s9litk0o31AOmz3oMVjMcZpQRpK8o+z9IGlI=
 before_install:
 - chmod +x deployment/before-deploy.sh
 - chmod +x deployment/deploy.sh
@@ -41,4 +42,3 @@ cache:
 after_success:
 - "./deployment/before-deploy.sh"
 - "./deployment/deploy.sh"
-
