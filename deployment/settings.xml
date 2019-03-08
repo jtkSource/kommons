@@ -5,6 +5,11 @@
             <username>${env.OSSRH_JIRA_USERNAME}</username>
             <password>${env.OSSRH_JIRA_PASSWORD}</password>
         </server>
+        <server>
+            <id>systemkern-snapshots-ftp</id>
+            <username>${env.SYSTEMKERN_FTP_USER}</username>
+            <password>${env.SYSTEMKERN_FTP_PASS}</password>
+        </server>
     </servers>
 
     <profiles>

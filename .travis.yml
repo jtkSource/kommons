@@ -1,3 +1,10 @@
 language: java
 
+cache:
+  directories:
+    - $HOME/.m2
+
+# install maven dependencies to local repo
+install: true
+
 script: mvn -B clean verify

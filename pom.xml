@@ -3,6 +3,12 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.1.RELEASE</version>
+        <relativePath/>
+    </parent>
 
     <groupId>com.systemkern</groupId>
     <artifactId>kommons</artifactId>
@@ -38,13 +44,6 @@
             <email>rainer@systemkern.com</email>
         </developer>
     </developers>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
-        <relativePath/>
-    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -119,6 +118,7 @@
         <sourceDirectory>src/main/kotlin</sourceDirectory>
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
         <plugins>
+            <!-- Kotlin Compiler plugin -->
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
@@ -150,7 +150,8 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <!--nexus-staging-maven-plugin is for deploying to maven central-->
+
+            <!-- Nexus Staging plugin for deploying to maven central-->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
