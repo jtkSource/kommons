@@ -7,8 +7,8 @@
         </server>
         <server>
             <id>systemkern-snapshots-ftp</id>
-            <username>${env.SYSTEMKERN_FTP_USER}</username>
-            <password>${env.SYSTEMKERN_FTP_PASS}</password>
+            <username>${env.FTP_USER}</username>
+            <password>${env.FTP_PASS}</password>
         </server>
     </servers>
 
