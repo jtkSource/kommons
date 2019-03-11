@@ -166,7 +166,7 @@
         <repository>
             <id>systemkern-snapshots-ftp</id>
             <layout>default</layout>
-            <url>sftp://sys</url>
+            <url>ftp://systemkern.com</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
         <downloadUrl>http://repo.systemkern.com</downloadUrl>
