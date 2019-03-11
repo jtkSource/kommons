@@ -7,4 +7,4 @@ cache:
 # install maven dependencies to local repo
 install: true
 
-script: mvn -B clean verify
+script: mvn -B -s deployment/settings.xml clean deploy

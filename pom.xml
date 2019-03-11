@@ -50,6 +50,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <kotlin.version>1.2.71</kotlin.version>
+        <wagon-ftp.version>3.3.1</wagon-ftp.version>
+
 
         <javax-persistence-api.version>2.2</javax-persistence-api.version>
     </properties>
@@ -151,20 +153,28 @@
                 </dependencies>
             </plugin>
 
-            <!-- Nexus Staging plugin for deploying to maven central-->
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.6</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
         </plugins>
+        <extensions>
+            <!-- Deploying the final product to ftp -->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>${wagon-ftp.version}</version>
+            </extension>
+        </extensions>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>systemkern-snapshots-ftp</id>
+            <layout>default</layout>
+            <url>ftp://systemkern.com</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+        <downloadUrl>http://repo.systemkern.com</downloadUrl>
+    </distributionManagement>
+
+
     <profiles>
         <profile>
             <id>sign</id>
@@ -219,6 +229,28 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>deploy-maven-central</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <!-- Nexus Staging plugin for deploying to maven central-->
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.6</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
