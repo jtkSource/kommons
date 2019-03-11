@@ -7,5 +7,5 @@ cache:
 # install maven dependencies to local repo
 install: true
 
-script: mvn -B -s -e deployment/settings.xml clean deploy -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
+script: mvn -B -e -s deployment/settings.xml clean deploy -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
 
