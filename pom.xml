@@ -52,7 +52,6 @@
         <kotlin.version>1.2.71</kotlin.version>
         <wagon-ftp.version>3.3.1</wagon-ftp.version>
 
-
         <javax-persistence-api.version>2.2</javax-persistence-api.version>
     </properties>
 
@@ -168,7 +167,7 @@
         <repository>
             <id>systemkern-snapshots-ftp</id>
             <layout>default</layout>
-            <url>ftps://wp12943611.server-he.de</url>
+            <url>ftp://wp12943611.server-he.de</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
         <downloadUrl>http://repo.systemkern.com</downloadUrl>
