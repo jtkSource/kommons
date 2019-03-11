@@ -151,7 +151,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
         </plugins>
         <extensions>
             <!-- Deploying the final product to ftp -->

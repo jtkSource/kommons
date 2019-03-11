@@ -9,6 +9,9 @@
             <id>systemkern-snapshots-ftp</id>
             <username>${env.FTP_USER}</username>
             <password>${env.FTP_PASS}</password>
+            <configuration>
+                <passiveMode>false</passiveMode>
+            </configuration>
         </server>
     </servers>
 
